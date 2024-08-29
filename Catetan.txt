@@ -1,0 +1,18 @@
+Problem statement
+1. It gets input from webcam or some folder by loading it
+2. Detects faces in the input image
+3. Shows these detected faces in the image by marked rectagle
+
+Algorithm used = Viola-Jones Algorithm which is applied in the Haar Cascade
+
+Haar Cascade is a classifier or detector trained on thousands of human faces
+  - stored in an XML file
+
+Step-by-step Tutorial
+=====================
+1. Declaring the classifier
+   - Declare an object of class HaarCascade
+   
+   "private HaarCascade haar;"
+
+2. Load the HaarCascade XML files
